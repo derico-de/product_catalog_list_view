@@ -1,0 +1,123 @@
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan" style="color:#875A7B;">Product Catalog List View</h2>
+            <h3 class="oe_slogan">See more products, add them faster.</h3>
+        </div>
+        <div class="oe_span12">
+            <img class="oe_picture oe_screenshot" src="banner.png" alt="Product Catalog List View"/>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h3 class="oe_slogan">Why this module?</h3>
+            <p class="oe_mt32">
+                The product catalog used to add products to sale orders,
+                purchase orders and invoices only offers a kanban view.
+                Its cards show a product image and take a lot of space.
+                With a large product range you spend more time scrolling
+                than selecting.
+            </p>
+            <p>
+                This module adds a <b>compact list view</b> to the catalog.
+                It fits many more products on one screen while keeping the
+                full catalog behavior:
+            </p>
+            <ul>
+                <li>Clicking a row adds the product to the order.</li>
+                <li>The quantity can be changed directly in the row
+                    (<b>+</b> / <b>-</b> buttons or direct input).</li>
+                <li>Price display and the <i>Back to Quotation/Order</i>
+                    button work exactly like in the kanban catalog.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h3 class="oe_slogan">The compact list view</h3>
+            <p class="oe_mt32">
+                For sale orders the catalog opens in the list view by
+                default; the kanban view stays available through the view
+                switcher.
+            </p>
+            <img class="oe_picture oe_screenshot" src="screenshot_list.png"
+                 alt="Catalog in the compact list view"/>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h3 class="oe_slogan">The standard kanban catalog stays available</h3>
+            <p class="oe_mt32">
+                On other documents (purchase orders, invoices, ...) the
+                catalog still opens in the kanban view and the list view is
+                offered in the view switcher.
+            </p>
+            <img class="oe_picture oe_screenshot" src="screenshot_kanban.png"
+                 alt="Catalog in the standard kanban view"/>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h3 class="oe_slogan">Usage</h3>
+            <ol class="oe_mt32">
+                <li>Open a sale order and click <i>Catalog</i> above the
+                    order lines. The catalog opens as a list.</li>
+                <li>Click a row to add the product to the order, or use the
+                    <i>Add</i> button.</li>
+                <li>Adjust the quantity with the <b>+</b> / <b>-</b> buttons
+                    or by typing in the quantity field.</li>
+                <li>Use the view switcher in the top right corner to change
+                    back to the kanban view.</li>
+                <li>Click <i>Back to Quotation</i> to return to the
+                    order.</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h3 class="oe_slogan">Technical notes</h3>
+            <ul class="oe_mt32">
+                <li>The list view reuses the catalog kanban machinery, so
+                    core and third-party patches (purchase, account, mrp,
+                    ...) keep working in the list view.</li>
+                <li>To make the list view the default on another model,
+                    override <code>action_add_from_catalog</code> on that
+                    model and move the <code>list</code> entry of
+                    <code>action["views"]</code> to the front.</li>
+                <li>No new models, no stored fields — the module only adds a
+                    view and extends the catalog action.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12" style="text-align:center;">
+            <a href="https://derico.de" target="_blank">
+                <img src="derico_logo.png" alt="derico" style="width:96px;"/>
+            </a>
+            <h3 class="oe_slogan">derico</h3>
+            <p>
+                Developed and maintained by
+                <a href="https://derico.de" target="_blank">derico</a>.<br/>
+                Support: <a href="mailto:md@derico.de">md@derico.de</a>
+            </p>
+        </div>
+    </div>
+</section>

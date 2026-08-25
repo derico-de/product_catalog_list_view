@@ -1,1 +1,1 @@
-- Maik Derstappen \<md@derico.de\>
+- Maik Derstappen \<md@derico.de\> ([derico](https://derico.de))

@@ -3,16 +3,17 @@
 Adds a compact list view to the product catalog (the "Catalog" screen used to
 add products to sale orders, purchase orders, invoices, ...).
 
-You might also want to have a look at, which solve the same problem slighly differently.
-https://github.com/derico-de/invoice_product_multi_add
+You might also want to have a look at
+[invoice_product_multi_add](https://github.com/derico-de/invoice_product_multi_add),
+which solves the same problem slightly differently.
 They can be installed together.
 
 ## Why
 
 The default catalog only offers a kanban view whose cards show a product image
-and take a lot of space. 
+and take a lot of space.
 
-<img width="1787" height="371" alt="grafik" src="https://github.com/user-attachments/assets/bba9f442-474b-45b0-9117-19841c659f60" />
+![Catalog in the standard kanban view](static/description/screenshot_kanban.png)
 
 With a large product range the list view fits many
 more products on one screen while keeping the full catalog behavior:
@@ -27,7 +28,7 @@ stays available through the view switcher. On other documents (purchase
 orders, invoices, ...) the catalog still opens in kanban and the list view is
 offered in the view switcher.
 
-<img width="1780" height="344" alt="grafik" src="https://github.com/user-attachments/assets/e096e32e-99db-447f-a62f-af6dcd2b988b" />
+![Catalog in the compact list view](static/description/screenshot_list.png)
 
 
 ## Usage
@@ -55,8 +56,10 @@ offered in the view switcher.
 
 ## Authors
 
-- derico
+<a href="https://derico.de"><img src="static/description/derico_logo.png" alt="derico" width="100"/></a>
+
+- [derico](https://derico.de)
 
 ## Contributors
 
-- Maik Derstappen \<md@derico.de\>
+- Maik Derstappen \<md@derico.de\> ([derico](https://derico.de))

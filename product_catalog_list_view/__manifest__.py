@@ -6,7 +6,11 @@
     "category": "Sales/Sales",
     "author": "derico",
     "website": "https://derico.de",
+    "support": "md@derico.de",
     "license": "AGPL-3",
+    "images": [
+        "static/description/banner.png",
+    ],
     "depends": [
         "product",
         "sale",
