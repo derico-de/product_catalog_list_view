@@ -6,7 +6,11 @@ add products to sale orders, purchase orders, invoices, ...).
 ## Why
 
 The default catalog only offers a kanban view whose cards show a product image
-and take a lot of space. With a large product range the list view fits many
+and take a lot of space. 
+
+<img width="1787" height="371" alt="grafik" src="https://github.com/user-attachments/assets/bba9f442-474b-45b0-9117-19841c659f60" />
+
+With a large product range the list view fits many
 more products on one screen while keeping the full catalog behavior:
 
 - clicking a row adds the product to the order,
@@ -18,6 +22,9 @@ For sale orders the catalog opens in the list view by default; the kanban view
 stays available through the view switcher. On other documents (purchase
 orders, invoices, ...) the catalog still opens in kanban and the list view is
 offered in the view switcher.
+
+<img width="1780" height="344" alt="grafik" src="https://github.com/user-attachments/assets/e096e32e-99db-447f-a62f-af6dcd2b988b" />
+
 
 ## Usage
 
