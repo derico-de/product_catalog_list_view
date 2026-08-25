@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="product_catalog_list_view.ProductCatalogOrderLineWidget">
+        <div t-if="productCatalogData"
+             class="o_product_catalog_list_cell o_product_catalog_cancel_global_click d-flex align-items-center justify-content-between gap-2"
+             t-on-click.stop="() => {}">
+            <!-- Target of the price t-portal rendered by the order line component. -->
+            <div class="o_product_catalog_list_price text-nowrap"
+                 t-attf-id="product-{{props.record.resId}}-price"/>
+            <t t-component="orderLineComponent"
+               productId="props.record.resId"
+               t-props="productCatalogData"/>
+        </div>
+    </t>
+</templates>

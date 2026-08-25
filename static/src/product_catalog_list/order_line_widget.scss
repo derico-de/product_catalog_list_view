@@ -1,0 +1,29 @@
+.o_product_catalog_list_cell {
+    min-width: 280px;
+
+    // The order line component renders the price (and the product code) into
+    // the portal target on the left; the code already has its own column in
+    // the list view, so hide the duplicate here.
+    .o_product_catalog_list_price span.text-muted {
+        display: none;
+    }
+
+    // Compact the order line component (designed for kanban cards) so the
+    // rows stay dense.
+    > div {
+        flex: 1 1 auto;
+        margin: 0 !important;
+    }
+    .o_product_catalog_quantity {
+        max-width: 10rem;
+    }
+    .btn {
+        padding-top: 0.125rem;
+        padding-bottom: 0.125rem;
+    }
+}
+
+.o_list_renderer .o_data_row.o_product_added > .o_data_cell,
+.o_list_renderer .o_data_row.o_product_added > .o_list_record_selector {
+    background-color: $o-component-active-bg;
+}
