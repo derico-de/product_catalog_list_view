@@ -4,4 +4,4 @@ Adds a compact list view to the product catalog (the "Catalog" screen used to ad
 
 You might also want to have a look at, which solve the same problem slighly differently. https://github.com/derico-de/invoice_product_multi_add They can be installed together.
 
-see https://github.com/derico-de/product_catalog_compact_list/blob/main/product_catalog_compact_list/README.md
+see [product_catalog_compact_list/README.md](./product_catalog_compact_list/README.md)
