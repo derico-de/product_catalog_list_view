@@ -5,7 +5,7 @@ import { ListController } from "@web/views/list/list_controller";
 import { ProductCatalogKanbanController } from "@product/product_catalog/kanban_controller";
 
 export class ProductCatalogListController extends ListController {
-    static template = "product_catalog_list_view.ProductCatalogListController";
+    static template = "product_catalog_compact_list.ProductCatalogListController";
 
     setup() {
         super.setup();

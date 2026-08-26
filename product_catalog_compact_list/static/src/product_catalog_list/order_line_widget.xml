@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
-    <t t-name="product_catalog_list_view.ProductCatalogOrderLineWidget">
+    <t t-name="product_catalog_compact_list.ProductCatalogOrderLineWidget">
         <div t-if="productCatalogData"
              class="o_product_catalog_list_cell o_product_catalog_cancel_global_click d-flex align-items-center justify-content-between gap-2"
              t-on-click.stop="() => {}">

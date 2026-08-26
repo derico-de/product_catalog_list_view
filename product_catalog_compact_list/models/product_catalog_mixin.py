@@ -7,7 +7,7 @@ class ProductCatalogMixin(models.AbstractModel):
     def action_add_from_catalog(self):
         action = super().action_add_from_catalog()
         list_view_id = self.env.ref(
-            "product_catalog_list_view.product_view_list_catalog"
+            "product_catalog_compact_list.product_view_list_catalog"
         ).id
         views = action.get("views") or []
         # Insert the list view right after the kanban entry. Never insert it

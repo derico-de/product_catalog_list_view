@@ -17,7 +17,7 @@ class TestCatalogListTour(HttpCase):
 
         self.start_tour(
             f"/odoo/sales/{order.id}",
-            "product_catalog_list_view_tour",
+            "product_catalog_compact_list_tour",
             login="admin",
         )
 

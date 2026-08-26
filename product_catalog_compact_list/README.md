@@ -1,4 +1,4 @@
-# Product Catalog List View
+# Product Catalog Compact List
 
 Adds a compact list view to the product catalog (the "Catalog" screen used to
 add products to sale orders, purchase orders, invoices, ...).

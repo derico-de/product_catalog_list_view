@@ -1,6 +1,6 @@
 import { registry } from "@web/core/registry";
 
-registry.category("web_tour.tours").add("product_catalog_list_view_tour", {
+registry.category("web_tour.tours").add("product_catalog_compact_list_tour", {
     steps: () => [
         {
             content: "Open the product catalog",

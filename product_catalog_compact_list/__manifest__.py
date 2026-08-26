@@ -1,5 +1,5 @@
 {
-    "name": "Product Catalog List View",
+    "name": "Product Catalog Compact List",
     "summary": "Add a compact list view to the product catalog",
     "version": "19.0.1.0.0",
     "development_status": "Beta",
@@ -20,10 +20,10 @@
     ],
     "assets": {
         "web.assets_backend": [
-            "product_catalog_list_view/static/src/**/*",
+            "product_catalog_compact_list/static/src/**/*",
         ],
         "web.assets_tests": [
-            "product_catalog_list_view/static/tests/tours/**/*",
+            "product_catalog_compact_list/static/tests/tours/**/*",
         ],
     },
     "installable": True,

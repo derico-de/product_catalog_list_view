@@ -9,7 +9,7 @@ class TestCatalogAction(TransactionCase):
         cls.partner = cls.env["res.partner"].create({"name": "Catalog Test Partner"})
         cls.order = cls.env["sale.order"].create({"partner_id": cls.partner.id})
         cls.list_view = cls.env.ref(
-            "product_catalog_list_view.product_view_list_catalog"
+            "product_catalog_compact_list.product_view_list_catalog"
         )
 
     def test_catalog_action_contains_list_view(self):

@@ -13,7 +13,7 @@ import { ProductCatalogKanbanRecord } from "@product/product_catalog/kanban_reco
  * the inherited methods rely on.
  */
 export class ProductCatalogOrderLineWidget extends Component {
-    static template = "product_catalog_list_view.ProductCatalogOrderLineWidget";
+    static template = "product_catalog_compact_list.ProductCatalogOrderLineWidget";
     static props = {
         record: Object,
         readonly: { type: Boolean, optional: true },
